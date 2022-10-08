@@ -21,7 +21,7 @@ const curYear = curDate.getFullYear()
 
 dateEl.innerHTML = `${curDay()}, ${curDayofMonth} ${curMonth()} ${curYear}`;
 
-footerEl.innerHTML = `&copy${curYear} Kanasin`
+footerEl.innerHTML = `&copy${curYear} Merida`
 
 const lastModifiedDate = new Date(document.lastModified)
 
