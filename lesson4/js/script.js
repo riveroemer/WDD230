@@ -32,4 +32,4 @@ let modminute = lastModifiedDate.getMinutes();
 let modsecond = lastModifiedDate.getSeconds()
 let modhour = lastModifiedDate.getHours(); 
 
-modEl.innerHTML = `Last Updated: ${modMonth}/${modDay}/${modYear} ${modhour}:${modminute}`
+modEl.innerHTML = `Last Updated: ${modMonth}/${modDay}/${modYear} ${modhour}:${modminute}:${modsecond}`
