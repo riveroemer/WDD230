@@ -296,7 +296,7 @@ main div:not(:nth-child(2)) p{
 /*hero style*/
 .hero{
     grid-area: hero;
-    background-image: url(../images/merida.jpg);
+    background-image: url(../wdd230/lesson5/chamber/images/merida.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
