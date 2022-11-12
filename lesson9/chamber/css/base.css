@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/*Header Style*/
+header{
+    background-color: #62929e;
+    padding: .5rem 0;
+}
+
+header h1{
+    font-family: 'Noto Serif', serif;
+    color: white;
+}
+main h2{
+    font-family: 'Noto Serif', serif;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: .8rem;
+}
+.logo-container img{
+    border-radius: 15px;
+    width: 10%;
+    height: auto;
+}
+
+.logo-container h1{
+    font-size: 1.1rem;
+}
+
+.social-links-container{
+    display: flex;
+}
+.social-links-container img{
+    width: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+header nav{
+    max-width: 868px;
+    margin: 0 auto;
+}
+.navigation{
+    list-style: none;
+
+}
+.navigation li a {
+    display: block;
+    text-decoration: none;
+    color: #ffe5ae;
+    font-weight: bold;
+    padding: .8rem;
+    transition: .4s;
+}
+.navigation li a {
+    color: white;
+}
+
+.navigation li a:hover{
+    color: #F2294E;
+}
+
+nav button{
+    margin: .4rem;
+    padding: .5rem;
+    border: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: #555;
+    cursor: pointer;
+    background-color:#bce7cd;
+}
+nav .navigation{
+    display: none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+.date{
+    text-align: center;
+    color: white;
+    padding: .3rem 0rem;
+}
+
+#menu-btn span:nth-child(1){
+    display: block;
+}
+
+#menu-btn span:nth-child(2){
+    display: none;
+}
+
+#menu-btn.open span:nth-child(1){
+    display: none;
+}
+
+#menu-btn.open span:nth-child(2){
+    display: block;
+}
+
+.logo-container h1{
+    font-size: 1rem;
+}
+
+.holderspot {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 100%;
+	grid-row: 5/7;
+	gap: 10px;
+
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+}
+
+.holderspot div {
+
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+	padding: 10px;
+	text-align: center;
+
+
+}
+
+.holderspot img {
+	
+	width: 100%;
+}
+
+.holderspot .spot3 {
+	display: none;
+}
+/**End of the advertisments of the right side**/
+
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	padding: 20px;
+}
+
+
+/*This is the event section*/
+.event {
+	display: block;
+}
+
+
+.holder{
+	display: block;
+}
+
+.holder img{
+	width: 100%;
+}
+
+
+
+
+
+/*This is the weather section*/
+.weather {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.weather .border_above{
+	border-top: 1px solid rgb(128, 125, 125);
+  padding-top: 30px;
+}
+
+.weather img{
+	width: 150px;
+	grid-column: 1/2;
+
+}
+
+.weather span{
+	font-size: 30px;
+	grid-column: 2/3;
+	margin: auto 0;
+
+}
+
+.weather p{
+	grid-column: 1/3;
+
+}
+
+/*This is the section of join us*/
+.join {
+	display: none;
+	
+}
+
+.join p{
+
+	color: #000000;
+
+}
+
+
+.join .btn_join {
+	margin: 0 auto;
+	background-color: #f7c72b;
+	border: 1px solid #32292f;
+	padding: 10px;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+	border-radius: 5px 5px 5px 5px;
+	width: 70%;
+	
+}
+
+.btn_join a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+
+/*This is the section for new release*/
+.news {
+	display: block;
+	
+}
+
+
+
+/******************************************************/
+/*******Here I set the style for the companies*********/
+/******************************************************/
+
+main{
+	display: block;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+.menu{
+	text-align: center;
+}
+
+
+.directory_box section{
+	background-color: white;
+	margin: 1rem;
+	text-align: center;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border: 1px solid #040404;
+  box-shadow: 3px 3px 10px rgb(32, 13, 1); 
+}
+
+.directory_box img{
+	width: 150px;
+}
+
+.menu button{
+	color: white;
+	background-color: #62929e;
+	margin: .8rem;
+	padding: 10px 30px;
+	
+    
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+
+.list{
+	display: flex;
+	flex-direction:column;
+	
+}
+
+.list section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+	justify-content:space-evenly;
+
+}
+
+.list section h2{
+	text-shadow: 3px 3px 10px rgb(32, 13, 1);
+	padding-bottom: 1.5rem;
+}
+
+.list section p{
+	padding-left: 1rem;
+}
+
+.list section:nth-last-of-type(even) {
+	background-color: #62929e;
+}
+
+.list section img{
+	display: none;
+}
+
+
+footer{
+    background-color: #62929e;
+    padding: .5rem 0;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    -webkit-clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%);
+  -o-clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%);
+}
+
+
+.logo-container-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-container-footer img{
+    display: block;
+    border-radius: 15px;
+    max-width: 90px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+}
+
+.info-container-footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+footer ul li{
+    padding: .5rem;
+}
+
+
+
+/*hero style*/
+.hero{
+    grid-area: hero;
+    background-image: url(../images/wdd230-org.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+#hero-title {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.5rem;
+}
+
+.hero-cta{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: .6rem .9rem;
+    border-radius: 10px;
+    background-color: #62929e;
+    color: white;
+}
+
+.hero-cta:hover{
+    background-color: #F2294E;
+    transform: scale(1.01);
+}
