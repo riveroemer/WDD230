@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c0ebc5b9;
+}
+
+aside{
+    background-color: #c6c5b9;
+    padding:1em;
+    text-align: center;
+    font-weight: bold;
+    color: #856404;
+}
+
+header{
+    background-color: #62929e;
+     padding: .5rem 0;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: .8rem;
+}
+.logo-container img{
+    border-radius: 15px;
+    max-width: 70px;
+    width: 30%;
+    height: auto;
+}
+
+.logo-container h1{
+    font-size: 1.1rem;
+}
+
+.social-links-container{
+    display: flex;
+}
+.social-links-container img{
+    max-width: 50%;
+    width: 30%;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+header nav{
+    max-width: 868px;
+    margin: 0 auto;
+}
+
+.navigation{
+    list-style: none;
+
+}
+.navigation li a {
+    display: block;
+    text-decoration: none;
+    color: #19195c;
+    font-weight: bold;
+    padding: .8rem;
+    transition: .4s;
+}
+.navigation li a {
+    color: white;
+}
+
+.navigation li a:hover{
+    color: #F2294E;
+}
+nav button{
+    margin: .4rem;
+    padding: .5rem;
+    border: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: #555;
+    cursor: pointer;
+    background-color:#bce7cd;
+}
+nav .navigation{
+    display: none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+.date{
+    text-align: center;
+    color: white;
+    padding: .3rem 0rem;
+}
+
+#menu-btn span:nth-child(1){
+    display: block;
+}
+
+#menu-btn span:nth-child(2){
+    display: none;
+}
+
+#menu-btn.open span:nth-child(1){
+    display: none;
+}
+
+#menu-btn.open span:nth-child(2){
+    display: block;
+}
+
+.logo-container h1{
+    font-size: 1rem;
+    color: white;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    margin:.3em;
+    font-size: 1.5em;
+    text-shadow: 2px 4px 3px rgb(255, 255, 255);
+}
+
+.title h3 {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5em;
+}
+
+
+.active{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.appear li {
+    display: block;
+}
+
+main h2{
+    text-align: center;
+    margin-bottom: 1em ;
+    margin-top: 1em;
+}
+
+form{
+    border-radius: .2em;
+    background-color: rgba(0, 0, 0, .1);
+    margin: .5em 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.input-box{
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+label,legend{
+    font-weight: bold;
+}
+
+.input-box textarea,
+.input-box input,
+.input-box select{
+    width: 100%;
+    display: block;
+    padding: .5em;
+    margin: .5em 0;
+    border-radius: .5em;
+}
+
+
+fieldset{
+    margin-bottom: 1em;
+    border-radius: .5em;
+    border: dashed 1.5px #fff;
+}
+
+.radio{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.radio input{
+    display: inline-block;
+    margin-top: .8em;
+}
+
+.radio>label{
+    font-weight: normal;
+}
+
+#range{
+    display: flex;
+}
+
+#ratingvalue{
+    margin: .5em .2em .5em 1em;
+}
+.send{
+    padding: .5em;
+    border: none;
+    border-radius: .5em;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px #555;
+    cursor: pointer;
+}
+
+.message{
+    width: 80%;
+    margin: 1em auto;
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+    background-color: #b2b5c0;
+    padding: 2em;
+    margin-bottom: 5em;
+    border-radius: .2em;
+    box-shadow: 3px 3px 3px #555;
+}
+
+footer{
+    background-color: #62929e;
+    padding: .5rem 0;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    -webkit-clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%);
+    -o-clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%);
+}
+
+
+.logo-container-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-container-footer img{
+    display: block;
+    border-radius: 15px;
+    max-width: 90px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+}
+
+.info-container-footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+footer ul li{
+    padding: .5rem;
+}
